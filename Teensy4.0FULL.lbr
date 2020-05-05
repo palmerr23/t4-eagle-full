@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -137,7 +137,7 @@
 <smd name="D38/DAT3" x="-2.508" y="7.473" dx="1.27" dy="0.635" layer="16" rot="R90"/>
 <smd name="D39/DAT2" x="-3.508" y="7.473" dx="1.27" dy="0.635" layer="16" rot="R90"/>
 <smd name="D32/OUT1B" x="-5.08" y="-14.351" dx="1.4224" dy="0.7112" layer="16" rot="R90"/>
-<smd name="D32/MCLK2" x="-5.08" y="-8.763" dx="1.4224" dy="0.7112" layer="16" rot="R90"/>
+<smd name="D33/MCLK2" x="-5.08" y="-8.763" dx="1.4224" dy="0.7112" layer="16" rot="R90"/>
 <smd name="3V3" x="-0.508" y="7.473" dx="1.27" dy="0.635" layer="16" rot="R90"/>
 <rectangle x1="-5.4356" y1="-13.9192" x2="-4.7244" y2="-12.1412" layer="16"/>
 <rectangle x1="-2.8956" y1="-13.9192" x2="-2.1844" y2="-12.1412" layer="16"/>
@@ -247,7 +247,7 @@
 <smd name="D38/DAT3" x="-2.508" y="7.473" dx="1.27" dy="0.635" layer="1" rot="R90"/>
 <smd name="D39/DAT2" x="-3.508" y="7.473" dx="1.27" dy="0.635" layer="1" rot="R90"/>
 <smd name="D32/OUT1B" x="-5.08" y="-14.351" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
-<smd name="D32/MCLK2" x="-5.08" y="-8.763" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
+<smd name="D33/MCLK2" x="-5.08" y="-8.763" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
 <smd name="3V3" x="-0.508" y="7.473" dx="1.27" dy="0.635" layer="1" rot="R90"/>
 <rectangle x1="-5.4356" y1="-13.9192" x2="-4.7244" y2="-12.1412" layer="1"/>
 <rectangle x1="-2.8956" y1="-13.9192" x2="-2.1844" y2="-12.1412" layer="1"/>
@@ -455,7 +455,7 @@
 <connect gate="G$1" pin="D30/CRX3" pad="D30/CRX3"/>
 <connect gate="G$1" pin="D31/CTX3" pad="D31/CTX3"/>
 <connect gate="G$1" pin="D32/OUT1B" pad="D32/OUT1B"/>
-<connect gate="G$1" pin="D33/MCLK2" pad="D32/MCLK2"/>
+<connect gate="G$1" pin="D33/MCLK2" pad="D33/MCLK2"/>
 <connect gate="G$1" pin="D34/DAT1" pad="D34/DAT1"/>
 <connect gate="G$1" pin="D35/DAT0" pad="D35/DAT0"/>
 <connect gate="G$1" pin="D36/CLK" pad="D36/CLK"/>
@@ -510,8 +510,8 @@
 <connect gate="G$1" pin="D3" pad="D3"/>
 <connect gate="G$1" pin="D30/CRX3" pad="D30/CRX3"/>
 <connect gate="G$1" pin="D31/CTX3" pad="D31/CTX3"/>
-<connect gate="G$1" pin="D32/OUT1B" pad="D32/MCLK2"/>
-<connect gate="G$1" pin="D33/MCLK2" pad="D32/OUT1B"/>
+<connect gate="G$1" pin="D32/OUT1B" pad="D32/OUT1B"/>
+<connect gate="G$1" pin="D33/MCLK2" pad="D33/MCLK2"/>
 <connect gate="G$1" pin="D34/DAT1" pad="D34/DAT1"/>
 <connect gate="G$1" pin="D35/DAT0" pad="D35/DAT0"/>
 <connect gate="G$1" pin="D36/CLK" pad="D36/CLK"/>
